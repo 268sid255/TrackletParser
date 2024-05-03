@@ -1,6 +1,5 @@
 # Tracklet-Parser
- Tracklet Parser - a parser for tracklet labels in KITTI Raw Format 1.0 created by the [Computer Vision Annotation Tool (CVAT)](https://github.com/openvinotoolkit/cvat). 
- Based https://github.com/holtvogt/tracklet_parser
+ Tracklet Parser - a parser for tracklet labels in KITTI Raw Format 1.0 created by the [Computer Vision Annotation Tool (CVAT)](https://github.com/openvinotoolkit/cvat). Based https://github.com/holtvogt/tracklet_parser
 
 ## Installation and Usage
 
