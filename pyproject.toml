@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "trackletparser"
+version = "1.0.0"
+description = "Tracklet Xml Parser based on https://github.com/holtvogt/tracklet_parser"
+authors = ["Valery Balakishiev <valerabalakishiev@gmail.com>"]
+readme = "README.md"
+packages = [{include = 'src'}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+
+[tool.poetry.scripts]
+tracklet-run = 'src.tracklet_run:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
